@@ -1,49 +1,43 @@
 #!/usr/bin/env python
 
 import os
-import shutil
 import re
-#//-----------------------------------------------------------------
-#1. Find project file
-#2. Find gafrc file
-#3. update files based upon templates
-#//-----------------------------------------------------------------
+import createTemps
+#--------------------------------------------------------------------
 fpath = os.path.dirname(os.path.realpath(__file__))
-
-if (os.path.exists(fpath + "/gafrc")):
-    shutil.copy2(fpath + "/gafrc","./gafrc")
-else:
-    print "Error: gafrc template file no found!"
-    
-prjFile = "..."
 schemln = "..."
 pcbln   = "..."
-
+#--------------------------------------------------------------------
+#1. Overwrite gafrc file
+createTemps.create_gafrc()
+#--------------------------------------------------------------------
+#2. Check to see if prj.prj exists
+prjFile = "..."
 for files in os.listdir("./"):
     if files.endswith(".prj"):
         prjFile = files
+#--------------------------------------------------------------------
+#3. Create new prj file and append old user data
 
 if (os.path.exists("./" + prjFile)):
-    if (os.path.exists(fpath + "/prj.prj")):
-        for line in open("./" + prjFile,"r"):
-            sch = re.search('^schematics',line)
-            pcb = re.search('^output',line)
+    for line in open("./" + prjFile,"r"):
+        sch = re.search('^schematics',line)
+        pcb = re.search('^output',line)
             
-            if (sch != None):
-                schemln = line
-            if (pcb != None):
-                pcbln = line
+        if (sch != None):
+            schemln = line
+        if (pcb != None):
+            pcbln = line
                 
-        if ((pcbln != "...") and (schemln != "...")):
-            shutil.copy2(fpath + "/prj.prj","./prj.prj")
-            with open ("./prj.prj","a") as afile:
-                afile.write(schemln)
-                afile.write(pcbln)
-        else:
-            print "Error: Current prj file does not have schematic and output-name lines."
-            
+    if ((pcbln != "...") and (schemln != "...")):
+        createTemps.create_prj_temp()
+        with open ("./prj.prj","a") as afile:
+            afile.write("\n")
+            afile.write(schemln)
+            afile.write(pcbln)
     else:
-            print "Error: prj template file not found"
+        print "Error: Current prj file does not have sch and output-name lines."
+            
 else:
     print "Error: No project file in current directory"
 
