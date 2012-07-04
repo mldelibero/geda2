@@ -14,9 +14,9 @@ def create_gafrc():
     """ Create a gafrc file in the calling directory """
     symDirs = os.listdir(sympath)
     with open ("./gafrc","w") as gafrc:
-        gafrc.write(sympath + "\n")
+        gafrc.write('(component-library "' + sympath + '")\n')
         for dir in symDirs:
-            gafrc.write(os.path.join(sympath,dir) + "\n")
+            gafrc.write('(component-library "' + os.path.join(sympath,dir) + '")\n')
 #--------------------------------------------------------------------
 def create_prj_temp():
     """ Create a prj.prj file in the calling directory """
