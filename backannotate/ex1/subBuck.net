@@ -1,0 +1,4 @@
+unnamed_net2	C2-1 Q1-S 
+unnamed_net1	L2-1 L1-1 Q1-D D1-2 
+PGND	C2-2 tp2-1 D1-1 C1-2 R1-1 
+buck2	tp1-1 C1-1 L2-2 L1-2 R1-2 

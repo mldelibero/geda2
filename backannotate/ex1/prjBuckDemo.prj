@@ -1,0 +1,3 @@
+elements-dir ./footprints
+schematics buckDemo.sch 
+output-name lay
