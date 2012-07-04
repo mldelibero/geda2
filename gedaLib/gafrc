@@ -1,0 +1,8 @@
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/fets/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/connectors/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/mcu/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/opamps/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/resistors/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/capacitors/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/transformers/")
+(component-library "/Users/mldelibero/projects/geda/gedaLib/symbols/headers/")

@@ -1,0 +1,15 @@
+This is a shared library for the gEDA suite. Make sure to have mknewgEDAprj.py and updategEDAprj.py in your system path. (I have them simlinked into my python scripts folder.)
+
+
+Make a new gEDA repo:
+
+Run mknewgEDAprj.py
+
+------------------
+Update Current gEDA repo to comply with current library:
+
+Run updategEDAprj.py
+
+-----------------
+
+Make sure that you update the partsList.xlsx file as you add new parts. We will eventually replace this with an actual database once the repo grows somewhat.
