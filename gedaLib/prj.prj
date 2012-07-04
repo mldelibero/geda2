@@ -1,4 +1,11 @@
-elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/
-elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/connectors/
-elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/opamps/
-
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/connectors
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/jewelryCap.fp
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/jewelryCap.pcb
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/opamps
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/R-GDIP-T8.fp
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/testPoint_5016.fp
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/testPoint_5016.pcb
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/th_3_pot.fp
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/TO220_3N_nmos
+elements-dir /Users/mldelibero/projects/geda2/gedaLib/footprints/TO220_3N_pmos
