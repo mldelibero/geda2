@@ -26,18 +26,8 @@ def create_prj_temp():
         for dir in pcbDirs:
             prj.write("elements-dir " + os.path.join(pcbpath,dir) + "\n")
 
-def add_usr2prj():
-    """ Add user data to prj.prj """
-    print "Enter the desired name of the .sch file:"
-    sch = raw_input()
-
-    print "Enter the desired name of the .pcb file:"
-    pcb = raw_input()
-
-    with open("./prj.prj","a") as file:
-        file.write("schematics " + sch+"\n")
-        file.write("output-name " + pcb+"\n")
     
 if __name__== "__main__":
+    create_gafrc()
     create_prj_temp()
     
