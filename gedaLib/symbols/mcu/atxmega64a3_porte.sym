@@ -86,3 +86,29 @@ T 0 2200 8 10 0 0 0 0 1
 model=atxmega64A3
 T 200 1900 8 10 1 1 0 0 1
 refdes=MCU?
+P 1100 400 900 400 1 0 0
+{
+T 1100 400 5 10 0 0 0 0 1
+pintype=io
+T 845 395 5 10 1 1 0 6 1
+pinlabel=PE6
+T 995 445 5 10 1 1 0 0 1
+pinnumber=42
+T 1100 400 5 10 0 0 0 0 1
+pinseq=42
+T -4100 400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 1100 200 900 200 1 0 0
+{
+T 1100 200 5 10 0 0 0 0 1
+pintype=io
+T 845 195 5 10 1 1 0 6 1
+pinlabel=PE7
+T 995 245 5 10 1 1 0 0 1
+pinnumber=43
+T 1100 200 5 10 0 0 0 0 1
+pinseq=43
+T -4100 200 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
