@@ -54,26 +54,26 @@ pinnumber=5
 T 100 2500 5 10 0 0 270 0 1
 pinseq=5
 }
-P 100 3300 300 3300 1 0 0
-{
-T 100 3300 5 10 0 0 90 2 1
-pintype=io
-T 355 3295 5 10 1 1 0 0 1
-pinlabel=DM
-T 205 3345 5 10 1 1 0 6 1
-pinnumber=6
-T 100 3300 5 10 0 0 90 2 1
-pinseq=6
-}
 P 100 3100 300 3100 1 0 0
 {
 T 100 3100 5 10 0 0 90 2 1
 pintype=io
 T 355 3095 5 10 1 1 0 0 1
-pinlabel=DP
+pinlabel=DM
 T 205 3145 5 10 1 1 0 6 1
-pinnumber=7
+pinnumber=6
 T 100 3100 5 10 0 0 90 2 1
+pinseq=6
+}
+P 100 3300 300 3300 1 0 0
+{
+T 100 3300 5 10 0 0 90 2 1
+pintype=io
+T 355 3295 5 10 1 1 0 0 1
+pinlabel=DP
+T 205 3345 5 10 1 1 0 6 1
+pinnumber=7
+T 100 3300 5 10 0 0 90 2 1
 pinseq=7
 }
 P 1600 4900 1600 4700 1 0 0
