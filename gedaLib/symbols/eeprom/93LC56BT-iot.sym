@@ -1,0 +1,82 @@
+v 20110115 2
+P 0 500 200 500 1 0 0
+{
+T 0 500 5 10 0 0 270 0 1
+pintype=out
+T 255 495 5 10 1 1 0 0 1
+pinlabel=DO
+T 105 545 5 10 1 1 0 6 1
+pinnumber=1
+T 0 500 5 10 0 0 270 0 1
+pinseq=1
+}
+P 0 300 200 300 1 0 0
+{
+T 0 300 5 10 0 0 270 0 1
+pintype=pwr
+T 255 295 5 10 1 1 0 0 1
+pinlabel=VSS
+T 105 345 5 10 1 1 0 6 1
+pinnumber=2
+T 0 300 5 10 0 0 270 0 1
+pinseq=2
+}
+P 0 100 200 100 1 0 0
+{
+T 0 100 5 10 0 0 270 0 1
+pintype=in
+T 255 95 5 10 1 1 0 0 1
+pinlabel=DI
+T 105 145 5 10 1 1 0 6 1
+pinnumber=3
+T 0 100 5 10 0 0 270 0 1
+pinseq=3
+}
+P 1300 100 1100 100 1 0 0
+{
+T 1300 100 5 10 0 0 90 0 1
+pintype=clk
+T 1045 95 5 10 1 1 0 6 1
+pinlabel=CLK
+T 1195 145 5 10 1 1 0 0 1
+pinnumber=4
+T 1300 100 5 10 0 0 90 0 1
+pinseq=4
+}
+P 1300 300 1100 300 1 0 0
+{
+T 1300 300 5 10 0 0 90 0 1
+pintype=io
+T 1045 295 5 10 1 1 0 6 1
+pinlabel=CS
+T 1195 345 5 10 1 1 0 0 1
+pinnumber=5
+T 1300 300 5 10 0 0 90 0 1
+pinseq=5
+}
+P 1300 500 1100 500 1 0 0
+{
+T 1300 500 5 10 0 0 90 0 1
+pintype=pwr
+T 1045 495 5 10 1 1 0 6 1
+pinlabel=VCC
+T 1195 545 5 10 1 1 0 0 1
+pinnumber=6
+T 1300 500 5 10 0 0 90 0 1
+pinseq=6
+}
+L 200 500 200 0 3 0 0 0 -1 -1
+L 200 0 1100 0 3 0 0 0 -1 -1
+L 1100 0 1100 900 3 0 0 0 -1 -1
+L 1100 900 200 900 3 0 0 0 -1 -1
+L 200 900 200 500 3 0 0 0 -1 -1
+T 500 725 8 10 1 1 0 0 1
+refdes=U?
+T 100 1600 8 10 0 0 0 0 1
+footprint=SOT23
+T 100 2200 8 10 0 0 0 0 1
+deviec=EEPROM
+T 100 2000 8 10 0 0 0 0 1
+model=93LC56BT-I/OT
+T 100 1800 8 10 0 0 0 0 1
+documentation=http://ww1.microchip.com/downloads/en/DeviceDoc/21794G.pdf
