@@ -1,0 +1,853 @@
+v 20110115 2
+P 5600 4400 5400 4400 1 0 0
+{
+T 5600 4400 5 10 0 0 0 0 1
+pintype=io
+T 5345 4395 5 10 1 1 0 6 1
+pinlabel=PA0
+T 5495 4445 5 10 1 1 0 0 1
+pinnumber=62
+T 5600 4400 5 10 0 0 0 0 1
+pinseq=62
+T 400 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 5600 4200 5400 4200 1 0 0
+{
+T 5600 4200 5 10 0 0 0 0 1
+pintype=io
+T 5345 4195 5 10 1 1 0 6 1
+pinlabel=PA1
+T 5495 4245 5 10 1 1 0 0 1
+pinnumber=63
+T 5600 4200 5 10 0 0 0 0 1
+pinseq=63
+T 400 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 5600 4000 5400 4000 1 0 0
+{
+T 5600 4000 5 10 0 0 0 0 1
+pintype=io
+T 5345 3995 5 10 1 1 0 6 1
+pinlabel=PA2
+T 5495 4045 5 10 1 1 0 0 1
+pinnumber=64
+T 5600 4000 5 10 0 0 0 0 1
+pinseq=64
+T 400 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 5600 3800 5400 3800 1 0 0
+{
+T 5600 3800 5 10 0 0 0 0 1
+pintype=io
+T 5345 3795 5 10 1 1 0 6 1
+pinlabel=PA3
+T 5495 3845 5 10 1 1 0 0 1
+pinnumber=1
+T 5600 3800 5 10 0 0 0 0 1
+pinseq=1
+T 400 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 5600 3600 5400 3600 1 0 0
+{
+T 5600 3600 5 10 0 0 0 0 1
+pintype=io
+T 5345 3595 5 10 1 1 0 6 1
+pinlabel=PA4
+T 5495 3645 5 10 1 1 0 0 1
+pinnumber=2
+T 5600 3600 5 10 0 0 0 0 1
+pinseq=2
+T 400 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 5600 3400 5400 3400 1 0 0
+{
+T 5600 3400 5 10 0 0 0 0 1
+pintype=io
+T 5345 3395 5 10 1 1 0 6 1
+pinlabel=PA5
+T 5495 3445 5 10 1 1 0 0 1
+pinnumber=3
+T 5600 3400 5 10 0 0 0 0 1
+pinseq=3
+T 400 3400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 5600 3200 5400 3200 1 0 0
+{
+T 5600 3200 5 10 0 0 0 0 1
+pintype=io
+T 5345 3195 5 10 1 1 0 6 1
+pinlabel=PA6
+T 5495 3245 5 10 1 1 0 0 1
+pinnumber=4
+T 5600 3200 5 10 0 0 0 0 1
+pinseq=4
+T 400 3200 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 5600 3000 5400 3000 1 0 0
+{
+T 5600 3000 5 10 0 0 0 0 1
+pintype=io
+T 5345 2995 5 10 1 1 0 6 1
+pinlabel=PA7
+T 5495 3045 5 10 1 1 0 0 1
+pinnumber=5
+T 5600 3000 5 10 0 0 0 0 1
+pinseq=5
+T 400 3000 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+P 7500 7000 7300 7000 1 0 0
+{
+T 7500 7000 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 6995 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 7045 5 10 1 1 0 0 1
+pinnumber=14
+T 7500 7000 5 10 0 0 0 0 1
+pinseq=14
+}
+P 6100 7000 6300 7000 1 0 0
+{
+T 6100 7000 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 6995 5 10 1 1 0 0 1
+pinlabel=Vcc
+T 6205 7045 5 10 1 1 0 6 1
+pinnumber=15
+T 6100 7000 5 10 0 0 0 6 1
+pinseq=15
+}
+P 7500 6800 7300 6800 1 0 0
+{
+T 7500 6800 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 6795 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 6845 5 10 1 1 0 0 1
+pinnumber=24
+T 7500 6800 5 10 0 0 0 0 1
+pinseq=24
+}
+P 6100 6800 6300 6800 1 0 0
+{
+T 6100 6800 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 6795 5 10 1 1 0 0 1
+pinlabel=Vcc
+T 6205 6845 5 10 1 1 0 6 1
+pinnumber=25
+T 6100 6800 5 10 0 0 0 6 1
+pinseq=25
+}
+P 7500 6600 7300 6600 1 0 0
+{
+T 7500 6600 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 6595 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 6645 5 10 1 1 0 0 1
+pinnumber=34
+T 7500 6600 5 10 0 0 0 0 1
+pinseq=34
+}
+P 6100 6600 6300 6600 1 0 0
+{
+T 6100 6600 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 6595 5 10 1 1 0 0 1
+pinlabel=Vcc
+T 6205 6645 5 10 1 1 0 6 1
+pinnumber=35
+T 6100 6600 5 10 0 0 0 6 1
+pinseq=35
+}
+P 7500 6200 7300 6200 1 0 0
+{
+T 7500 6200 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 6195 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 6245 5 10 1 1 0 0 1
+pinnumber=52
+T 7500 6200 5 10 0 0 0 0 1
+pinseq=52
+}
+P 6100 6200 6300 6200 1 0 0
+{
+T 6100 6200 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 6195 5 10 1 1 0 0 1
+pinlabel=Vcc
+T 6205 6245 5 10 1 1 0 6 1
+pinnumber=53
+T 6100 6200 5 10 0 0 0 6 1
+pinseq=53
+}
+P 6100 5700 6300 5700 1 0 0
+{
+T 6100 5700 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 5695 5 10 1 1 0 0 1
+pinlabel=AVCC
+T 6205 5745 5 10 1 1 0 6 1
+pinnumber=61
+T 6100 5700 5 10 0 0 0 6 1
+pinseq=61
+}
+P 7500 6400 7300 6400 1 0 0
+{
+T 7500 6400 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 6395 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 6445 5 10 1 1 0 0 1
+pinnumber=44
+T 7500 6400 5 10 0 0 0 0 1
+pinseq=44
+}
+P 6100 6400 6300 6400 1 0 0
+{
+T 6100 6400 5 10 0 0 0 6 1
+pintype=pwr
+T 6355 6395 5 10 1 1 0 0 1
+pinlabel=Vcc
+T 6205 6445 5 10 1 1 0 6 1
+pinnumber=45
+T 6100 6400 5 10 0 0 0 6 1
+pinseq=45
+}
+P 7500 5900 7300 5900 1 0 0
+{
+T 7500 5900 5 10 0 0 0 0 1
+pintype=gnd
+T 7245 5895 5 10 1 1 0 6 1
+pinlabel=GND
+T 7395 5945 5 10 1 1 0 0 1
+pinnumber=60
+T 7500 5900 5 10 0 0 0 0 1
+pinseq=60
+}
+P 10900 6900 10700 6900 1 0 0
+{
+T 10900 6900 5 10 0 0 0 0 1
+pintype=clk
+T 10645 6895 5 10 1 1 0 6 1
+pinlabel=TOSC2
+T 10795 6945 5 10 1 1 0 0 1
+pinnumber=42
+T 10900 6900 5 10 0 0 0 0 1
+pinseq=42
+}
+P 10900 6700 10700 6700 1 0 0
+{
+T 10900 6700 5 10 0 0 0 0 1
+pintype=clk
+T 10645 6695 5 10 1 1 0 6 1
+pinlabel=TOSC1
+T 10795 6745 5 10 1 1 0 0 1
+pinnumber=43
+T 10900 6700 5 10 0 0 0 0 1
+pinseq=43
+}
+P 10900 6500 10700 6500 1 0 0
+{
+T 10900 6500 5 10 0 0 0 0 1
+pintype=in
+T 10645 6495 5 10 1 1 0 6 1
+pinlabel=Vbat
+T 10795 6545 5 10 1 1 0 0 1
+pinnumber=51
+T 10900 6500 5 10 0 0 0 0 1
+pinseq=51
+}
+P 10900 6300 10700 6300 1 0 0
+{
+T 10900 6300 5 10 0 0 0 0 1
+pintype=in
+T 10645 6295 5 10 1 1 0 6 1
+pinlabel=PDI
+T 10795 6345 5 10 1 1 0 0 1
+pinnumber=56
+T 10900 6300 5 10 0 0 0 0 1
+pinseq=56
+}
+P 10900 6000 10700 6000 1 0 0
+{
+T 10900 6000 5 10 0 0 0 0 1
+pintype=in
+T 10645 5995 5 10 1 1 0 6 1
+pinlabel=RESET/PDI
+T 10795 6045 5 10 1 1 0 0 1
+pinnumber=57
+T 10900 6000 5 10 0 0 0 0 1
+pinseq=57
+}
+P 10900 5800 10700 5800 1 0 0
+{
+T 10900 5800 5 10 0 0 0 0 1
+pintype=in
+T 10645 5795 5 10 1 1 0 6 1
+pinlabel=PR0
+T 10795 5845 5 10 1 1 0 0 1
+pinnumber=58
+T 10900 5800 5 10 0 0 0 0 1
+pinseq=58
+}
+P 10900 5600 10700 5600 1 0 0
+{
+T 10900 5600 5 10 0 0 0 0 1
+pintype=in
+T 10645 5595 5 10 1 1 0 6 1
+pinlabel=PR1
+T 10795 5645 5 10 1 1 0 0 1
+pinnumber=59
+T 10900 5600 5 10 0 0 0 0 1
+pinseq=59
+}
+B 4500 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 4800 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 4800 3500 8 10 1 1 90 0 1
+value=PORTA
+P 7400 4400 7200 4400 1 0 0
+{
+T 7400 4400 5 10 0 0 0 0 1
+pintype=io
+T 7145 4395 5 10 1 1 0 6 1
+pinlabel=PB0
+T 7295 4445 5 10 1 1 0 0 1
+pinnumber=6
+T 7400 4400 5 10 0 0 0 0 1
+pinseq=6
+T 2200 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 7400 4200 7200 4200 1 0 0
+{
+T 7400 4200 5 10 0 0 0 0 1
+pintype=io
+T 7145 4195 5 10 1 1 0 6 1
+pinlabel=PB1
+T 7295 4245 5 10 1 1 0 0 1
+pinnumber=7
+T 7400 4200 5 10 0 0 0 0 1
+pinseq=7
+T 2200 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 7400 4000 7200 4000 1 0 0
+{
+T 7400 4000 5 10 0 0 0 0 1
+pintype=io
+T 7145 3995 5 10 1 1 0 6 1
+pinlabel=PB2
+T 7295 4045 5 10 1 1 0 0 1
+pinnumber=8
+T 7400 4000 5 10 0 0 0 0 1
+pinseq=8
+T 2200 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 7400 3800 7200 3800 1 0 0
+{
+T 7400 3800 5 10 0 0 0 0 1
+pintype=io
+T 7145 3795 5 10 1 1 0 6 1
+pinlabel=PB3
+T 7295 3845 5 10 1 1 0 0 1
+pinnumber=9
+T 7400 3800 5 10 0 0 0 0 1
+pinseq=9
+T 2200 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 7400 3600 7200 3600 1 0 0
+{
+T 7400 3600 5 10 0 0 0 0 1
+pintype=io
+T 7145 3595 5 10 1 1 0 6 1
+pinlabel=PB4
+T 7295 3645 5 10 1 1 0 0 1
+pinnumber=10
+T 7400 3600 5 10 0 0 0 0 1
+pinseq=10
+T 2200 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 7400 3400 7200 3400 1 0 0
+{
+T 7400 3400 5 10 0 0 0 0 1
+pintype=io
+T 7145 3395 5 10 1 1 0 6 1
+pinlabel=PB5
+T 7295 3445 5 10 1 1 0 0 1
+pinnumber=11
+T 7400 3400 5 10 0 0 0 0 1
+pinseq=11
+T 2200 3400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 7400 3200 7200 3200 1 0 0
+{
+T 7400 3200 5 10 0 0 0 0 1
+pintype=io
+T 7145 3195 5 10 1 1 0 6 1
+pinlabel=PB6
+T 7295 3245 5 10 1 1 0 0 1
+pinnumber=12
+T 7400 3200 5 10 0 0 0 0 1
+pinseq=12
+T 2200 3200 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 7400 3000 7200 3000 1 0 0
+{
+T 7400 3000 5 10 0 0 0 0 1
+pintype=io
+T 7145 2995 5 10 1 1 0 6 1
+pinlabel=PA7
+T 7295 3045 5 10 1 1 0 0 1
+pinnumber=13
+T 7400 3000 5 10 0 0 0 0 1
+pinseq=13
+T 2200 3000 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+B 6300 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 6600 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 6600 3500 8 10 1 1 90 0 1
+value=PORTB
+P 9000 4400 8800 4400 1 0 0
+{
+T 9000 4400 5 10 0 0 0 0 1
+pintype=io
+T 8745 4395 5 10 1 1 0 6 1
+pinlabel=PC0
+T 8895 4445 5 10 1 1 0 0 1
+pinnumber=16
+T 9000 4400 5 10 0 0 0 0 1
+pinseq=16
+T 3800 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 9000 4200 8800 4200 1 0 0
+{
+T 9000 4200 5 10 0 0 0 0 1
+pintype=io
+T 8745 4195 5 10 1 1 0 6 1
+pinlabel=PC1
+T 8895 4245 5 10 1 1 0 0 1
+pinnumber=17
+T 9000 4200 5 10 0 0 0 0 1
+pinseq=17
+T 3800 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 9000 4000 8800 4000 1 0 0
+{
+T 9000 4000 5 10 0 0 0 0 1
+pintype=io
+T 8745 3995 5 10 1 1 0 6 1
+pinlabel=PC2
+T 8895 4045 5 10 1 1 0 0 1
+pinnumber=18
+T 9000 4000 5 10 0 0 0 0 1
+pinseq=18
+T 3800 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 9000 3800 8800 3800 1 0 0
+{
+T 9000 3800 5 10 0 0 0 0 1
+pintype=io
+T 8745 3795 5 10 1 1 0 6 1
+pinlabel=PC3
+T 8895 3845 5 10 1 1 0 0 1
+pinnumber=19
+T 9000 3800 5 10 0 0 0 0 1
+pinseq=19
+T 3800 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 9000 3600 8800 3600 1 0 0
+{
+T 9000 3600 5 10 0 0 0 0 1
+pintype=io
+T 8745 3595 5 10 1 1 0 6 1
+pinlabel=PC4
+T 8895 3645 5 10 1 1 0 0 1
+pinnumber=20
+T 9000 3600 5 10 0 0 0 0 1
+pinseq=20
+T 3800 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 9000 3400 8800 3400 1 0 0
+{
+T 9000 3400 5 10 0 0 0 0 1
+pintype=io
+T 8745 3395 5 10 1 1 0 6 1
+pinlabel=PC5
+T 8895 3445 5 10 1 1 0 0 1
+pinnumber=21
+T 9000 3400 5 10 0 0 0 0 1
+pinseq=21
+T 3800 3400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 9000 3200 8800 3200 1 0 0
+{
+T 9000 3200 5 10 0 0 0 0 1
+pintype=io
+T 8745 3195 5 10 1 1 0 6 1
+pinlabel=PC6
+T 8895 3245 5 10 1 1 0 0 1
+pinnumber=22
+T 9000 3200 5 10 0 0 0 0 1
+pinseq=22
+T 3800 3200 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 9000 3000 8800 3000 1 0 0
+{
+T 9000 3000 5 10 0 0 0 0 1
+pintype=io
+T 8745 2995 5 10 1 1 0 6 1
+pinlabel=PC7
+T 8895 3045 5 10 1 1 0 0 1
+pinnumber=23
+T 9000 3000 5 10 0 0 0 0 1
+pinseq=23
+T 3800 3000 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+B 7900 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 8200 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 8200 3500 8 10 1 1 90 0 1
+value=PORTC
+P 10800 4400 10600 4400 1 0 0
+{
+T 10800 4400 5 10 0 0 0 0 1
+pintype=io
+T 10545 4395 5 10 1 1 0 6 1
+pinlabel=PD0
+T 10695 4445 5 10 1 1 0 0 1
+pinnumber=26
+T 10800 4400 5 10 0 0 0 0 1
+pinseq=26
+T 5600 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 10800 4200 10600 4200 1 0 0
+{
+T 10800 4200 5 10 0 0 0 0 1
+pintype=io
+T 10545 4195 5 10 1 1 0 6 1
+pinlabel=PD1
+T 10695 4245 5 10 1 1 0 0 1
+pinnumber=27
+T 10800 4200 5 10 0 0 0 0 1
+pinseq=27
+T 5600 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 10800 4000 10600 4000 1 0 0
+{
+T 10800 4000 5 10 0 0 0 0 1
+pintype=io
+T 10545 3995 5 10 1 1 0 6 1
+pinlabel=PD2
+T 10695 4045 5 10 1 1 0 0 1
+pinnumber=28
+T 10800 4000 5 10 0 0 0 0 1
+pinseq=28
+T 5600 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 10800 3800 10600 3800 1 0 0
+{
+T 10800 3800 5 10 0 0 0 0 1
+pintype=io
+T 10545 3795 5 10 1 1 0 6 1
+pinlabel=PD3
+T 10695 3845 5 10 1 1 0 0 1
+pinnumber=29
+T 10800 3800 5 10 0 0 0 0 1
+pinseq=29
+T 5600 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 10800 3600 10600 3600 1 0 0
+{
+T 10800 3600 5 10 0 0 0 0 1
+pintype=io
+T 10545 3595 5 10 1 1 0 6 1
+pinlabel=PD4
+T 10695 3645 5 10 1 1 0 0 1
+pinnumber=30
+T 10800 3600 5 10 0 0 0 0 1
+pinseq=30
+T 5600 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 10800 3400 10600 3400 1 0 0
+{
+T 10800 3400 5 10 0 0 0 0 1
+pintype=io
+T 10545 3395 5 10 1 1 0 6 1
+pinlabel=PD5
+T 10695 3445 5 10 1 1 0 0 1
+pinnumber=31
+T 10800 3400 5 10 0 0 0 0 1
+pinseq=31
+T 5600 3400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 10800 3200 10600 3200 1 0 0
+{
+T 10800 3200 5 10 0 0 0 0 1
+pintype=io
+T 10545 3195 5 10 1 1 0 6 1
+pinlabel=PD6
+T 10695 3245 5 10 1 1 0 0 1
+pinnumber=32
+T 10800 3200 5 10 0 0 0 0 1
+pinseq=32
+T 5600 3200 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 10800 3000 10600 3000 1 0 0
+{
+T 10800 3000 5 10 0 0 0 0 1
+pintype=io
+T 10545 2995 5 10 1 1 0 6 1
+pinlabel=PD7
+T 10695 3045 5 10 1 1 0 0 1
+pinnumber=33
+T 10800 3000 5 10 0 0 0 0 1
+pinseq=33
+T 5600 3000 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+B 9700 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 10000 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 10000 3500 8 10 1 1 90 0 1
+value=PORTD
+P 12400 4400 12200 4400 1 0 0
+{
+T 12400 4400 5 10 0 0 0 0 1
+pintype=io
+T 12145 4395 5 10 1 1 0 6 1
+pinlabel=PE0
+T 12295 4445 5 10 1 1 0 0 1
+pinnumber=36
+T 12400 4400 5 10 0 0 0 0 1
+pinseq=36
+T 7200 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 12400 4200 12200 4200 1 0 0
+{
+T 12400 4200 5 10 0 0 0 0 1
+pintype=io
+T 12145 4195 5 10 1 1 0 6 1
+pinlabel=PE1
+T 12295 4245 5 10 1 1 0 0 1
+pinnumber=37
+T 12400 4200 5 10 0 0 0 0 1
+pinseq=37
+T 7200 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 12400 4000 12200 4000 1 0 0
+{
+T 12400 4000 5 10 0 0 0 0 1
+pintype=io
+T 12145 3995 5 10 1 1 0 6 1
+pinlabel=PE2
+T 12295 4045 5 10 1 1 0 0 1
+pinnumber=38
+T 12400 4000 5 10 0 0 0 0 1
+pinseq=38
+T 7200 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 12400 3800 12200 3800 1 0 0
+{
+T 12400 3800 5 10 0 0 0 0 1
+pintype=io
+T 12145 3795 5 10 1 1 0 6 1
+pinlabel=PE3
+T 12295 3845 5 10 1 1 0 0 1
+pinnumber=39
+T 12400 3800 5 10 0 0 0 0 1
+pinseq=39
+T 7200 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 12400 3600 12200 3600 1 0 0
+{
+T 12400 3600 5 10 0 0 0 0 1
+pintype=io
+T 12145 3595 5 10 1 1 0 6 1
+pinlabel=PE4
+T 12295 3645 5 10 1 1 0 0 1
+pinnumber=40
+T 12400 3600 5 10 0 0 0 0 1
+pinseq=40
+T 7200 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 12400 3400 12200 3400 1 0 0
+{
+T 12400 3400 5 10 0 0 0 0 1
+pintype=io
+T 12145 3395 5 10 1 1 0 6 1
+pinlabel=PE5
+T 12295 3445 5 10 1 1 0 0 1
+pinnumber=41
+T 12400 3400 5 10 0 0 0 0 1
+pinseq=41
+T 7200 3400 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+B 11300 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 11600 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 11600 3500 8 10 1 1 90 0 1
+value=PORTE
+P 14000 4400 13800 4400 1 0 0
+{
+T 14000 4400 5 10 0 0 0 0 1
+pintype=io
+T 13745 4395 5 10 1 1 0 6 1
+pinlabel=PF0
+T 13895 4445 5 10 1 1 0 0 1
+pinnumber=46
+T 14000 4400 5 10 0 0 0 0 1
+pinseq=46
+T 8800 4400 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 14000 4200 13800 4200 1 0 0
+{
+T 14000 4200 5 10 0 0 0 0 1
+pintype=io
+T 13745 4195 5 10 1 1 0 6 1
+pinlabel=PF1
+T 13895 4245 5 10 1 1 0 0 1
+pinnumber=47
+T 14000 4200 5 10 0 0 0 0 1
+pinseq=47
+T 8800 4200 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 14000 4000 13800 4000 1 0 0
+{
+T 14000 4000 5 10 0 0 0 0 1
+pintype=io
+T 13745 3995 5 10 1 1 0 6 1
+pinlabel=PF2
+T 13895 4045 5 10 1 1 0 0 1
+pinnumber=48
+T 14000 4000 5 10 0 0 0 0 1
+pinseq=48
+T 8800 4000 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 14000 3800 13800 3800 1 0 0
+{
+T 14000 3800 5 10 0 0 0 0 1
+pintype=io
+T 13745 3795 5 10 1 1 0 6 1
+pinlabel=PF3
+T 13895 3845 5 10 1 1 0 0 1
+pinnumber=49
+T 14000 3800 5 10 0 0 0 0 1
+pinseq=49
+T 8800 3800 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 14000 3600 13800 3600 1 0 0
+{
+T 14000 3600 5 10 0 0 0 0 1
+pintype=io
+T 13745 3595 5 10 1 1 0 6 1
+pinlabel=PF4
+T 13895 3645 5 10 1 1 0 0 1
+pinnumber=50
+T 14000 3600 5 10 0 0 0 0 1
+pinseq=50
+T 8800 3600 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 14000 3200 13800 3200 1 0 0
+{
+T 14000 3200 5 10 0 0 0 0 1
+pintype=io
+T 13745 3195 5 10 1 1 0 6 1
+pinlabel=PF6
+T 13895 3245 5 10 1 1 0 0 1
+pinnumber=54
+T 14000 3200 5 10 0 0 0 0 1
+pinseq=54
+T 8800 3200 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 14000 3000 13800 3000 1 0 0
+{
+T 14000 3000 5 10 0 0 0 0 1
+pintype=io
+T 13745 2995 5 10 1 1 0 6 1
+pinlabel=PF7
+T 13895 3045 5 10 1 1 0 0 1
+pinnumber=55
+T 14000 3000 5 10 0 0 0 0 1
+pinseq=55
+T 8800 3000 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+B 12900 2800 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 13200 4675 5 10 1 1 0 0 1
+refdes=U?
+}
+T 13200 3500 8 10 1 1 90 0 1
+value=PORTF
+B 6300 5500 1000 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 6900 7525 5 10 1 1 180 0 1
+refdes=U?
+}
+B 9600 5400 1100 2000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+{
+T 10300 7325 5 10 1 1 180 0 1
+refdes=U?
+}
+T 6500 10100 8 10 0 0 0 0 1
+footprint=TQFP_10
+T 6500 9800 8 10 0 0 0 0 1
+model=atxmega64A3
+T 6500 9500 8 10 1 1 0 0 1
+refdes=MCU?

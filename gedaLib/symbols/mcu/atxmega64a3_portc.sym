@@ -1,0 +1,114 @@
+v 20110115 2
+P 1100 1600 900 1600 1 0 0
+{
+T 1100 1600 5 10 0 0 0 0 1
+pintype=io
+T 845 1595 5 10 1 1 0 6 1
+pinlabel=PC0
+T 995 1645 5 10 1 1 0 0 1
+pinnumber=16
+T 1100 1600 5 10 0 0 0 0 1
+pinseq=16
+T -4100 1600 5 10 0 1 0 0 1
+description=SYNC/ADC0_p/ADC0_n/ADC0_g/AC0_p/AC0_n/AREF
+}
+P 1100 1400 900 1400 1 0 0
+{
+T 1100 1400 5 10 0 0 0 0 1
+pintype=io
+T 845 1395 5 10 1 1 0 6 1
+pinlabel=PC1
+T 995 1445 5 10 1 1 0 0 1
+pinnumber=17
+T 1100 1400 5 10 0 0 0 0 1
+pinseq=17
+T -4100 1400 5 10 0 1 0 0 1
+description=SYNC/ADC1_p/ADC1_n/ADC1_g/AC1_p/AC1_n
+}
+P 1100 1200 900 1200 1 0 0
+{
+T 1100 1200 5 10 0 0 0 0 1
+pintype=io
+T 845 1195 5 10 1 1 0 6 1
+pinlabel=PC2
+T 995 1245 5 10 1 1 0 0 1
+pinnumber=18
+T 1100 1200 5 10 0 0 0 0 1
+pinseq=18
+T -4100 1200 5 10 0 1 0 0 1
+description=SYNC-ASYNC/ADC2_p/ADC2_n/ADC2_g/AC2_p
+}
+P 1100 1000 900 1000 1 0 0
+{
+T 1100 1000 5 10 0 0 0 0 1
+pintype=io
+T 845 995 5 10 1 1 0 6 1
+pinlabel=PC3
+T 995 1045 5 10 1 1 0 0 1
+pinnumber=19
+T 1100 1000 5 10 0 0 0 0 1
+pinseq=19
+T -4100 1000 5 10 0 1 0 0 1
+descripiton=SYNC/ADC3_p/ADC3_n/ADC3_g/AC3_p/AC3_n
+}
+P 1100 800 900 800 1 0 0
+{
+T 1100 800 5 10 0 0 0 0 1
+pintype=io
+T 845 795 5 10 1 1 0 6 1
+pinlabel=PC4
+T 995 845 5 10 1 1 0 0 1
+pinnumber=20
+T 1100 800 5 10 0 0 0 0 1
+pinseq=20
+T -4100 800 5 10 0 1 0 0 1
+description=SYNC/ADC4_p/ADC4_gp/ADC4_gn/AC4_p
+}
+P 1100 600 900 600 1 0 0
+{
+T 1100 600 5 10 0 0 0 0 1
+pintype=io
+T 845 595 5 10 1 1 0 6 1
+pinlabel=PC5
+T 995 645 5 10 1 1 0 0 1
+pinnumber=21
+T 1100 600 5 10 0 0 0 0 1
+pinseq=21
+T -4100 600 5 10 0 1 0 0 1
+description=SYNC/ADC5_p/ADC5_gp/ADC5_gn/AC5_p/AC5_n
+}
+P 1100 400 900 400 1 0 0
+{
+T 1100 400 5 10 0 0 0 0 1
+pintype=io
+T 845 395 5 10 1 1 0 6 1
+pinlabel=PC6
+T 995 445 5 10 1 1 0 0 1
+pinnumber=22
+T 1100 400 5 10 0 0 0 0 1
+pinseq=22
+T -4100 400 5 10 0 1 0 0 1
+description=SYNC/ADC6_p/ADC6_gp/ADC6_gn/AC6_p
+}
+P 1100 200 900 200 1 0 0
+{
+T 1100 200 5 10 0 0 0 0 1
+pintype=io
+T 845 195 5 10 1 1 0 6 1
+pinlabel=PC7
+T 995 245 5 10 1 1 0 0 1
+pinnumber=23
+T 1100 200 5 10 0 0 0 0 1
+pinseq=23
+T -4100 200 5 10 0 1 0 0 1
+description=SYNC/ADC7_p/ADC7_gp/ADC7_gn/AC7_n/AC0OUT
+}
+B 0 0 900 2100 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 300 700 8 10 1 1 90 0 1
+value=PORTC
+T 0 2500 8 10 0 0 0 0 1
+footprint=TQFP_10
+T 0 2200 8 10 0 0 0 0 1
+model=atxmega64A3
+T 200 1900 8 10 1 1 0 0 1
+refdes=MCU?
