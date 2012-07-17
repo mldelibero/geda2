@@ -33,3 +33,5 @@ T 0 900 8 10 0 0 0 0 1
 model=Panasonic: EEE-1HA221UAP
 T 0 700 8 10 0 0 0 0 1
 symversion=0.1
+T 150 300 8 10 1 1 0 0 1
+value=220u
