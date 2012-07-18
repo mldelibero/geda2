@@ -4,7 +4,7 @@ refdes=CONN?
 T -5500 -1050 5 10 0 0 0 0 1
 device=CONNECTOR_5
 T -5500 -850 5 10 0 0 0 0 1
-footprint=SIP5N
+footprint=usb_B
 T -5500 -650 5 10 0 0 0 0 1
 author=Leon Kos
 T -5500 -450 5 10 0 0 0 0 1
