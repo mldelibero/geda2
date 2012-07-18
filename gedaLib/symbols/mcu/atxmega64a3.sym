@@ -846,7 +846,7 @@ T 10300 7325 5 10 1 1 180 0 1
 refdes=U?
 }
 T 6500 10100 8 10 0 0 0 0 1
-footprint=TQFP_10
+footprint=TQFP64_14
 T 6500 9800 8 10 0 0 0 0 1
 model=atxmega64A3
 T 6500 9500 8 10 1 1 0 0 1
