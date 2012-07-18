@@ -55,7 +55,7 @@ A 350 375 50 180 180 3 0 0 0 -1 -1
 T 275 450 8 10 1 1 0 0 1
 refdes=U?
 T 200 700 8 10 0 0 0 0 1
-footprint=stsp_meder_SIL05-1A85-76L3K.sym
+footprint=relay_spst_meder_SIL05-1A85-76L3K
 T 200 1600 8 10 0 0 0 0 1
 device=reed relay
 T 200 1400 8 10 0 0 0 0 1
