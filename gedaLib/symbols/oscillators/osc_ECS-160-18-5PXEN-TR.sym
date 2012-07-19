@@ -29,4 +29,4 @@ L 100 100 100 125 3 0 0 0 -1 -1
 T 225 325 8 10 1 1 270 0 1
 refdes=O?
 T 100 600 8 10 0 0 0 0 1
-footprint=osc_ECS-160-18-5PXEN-TR
+footprint=osc_ECS_160_18_5PXEN_TR.fp
