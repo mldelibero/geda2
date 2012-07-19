@@ -534,7 +534,7 @@ L 300 300 3700 300 3 0 0 0 -1 -1
 T 1800 2900 8 10 1 1 0 0 1
 refdes=U?
 T 300 5200 8 10 0 0 0 0 1
-footprint=LQFP64_14
+footprint=LQFP48_7
 T 300 5800 8 10 0 0 0 0 1
 device=FTDI chip
 T 300 5400 8 10 0 0 0 0 1
