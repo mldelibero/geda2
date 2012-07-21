@@ -53,4 +53,4 @@ documentation=http://www.aavid.com/sites/default/files/literature/Aavid-Board-Le
 T 0 800 8 10 0 0 0 0 1
 symversion=0.1
 T 0 600 8 10 0 0 0 0 1
-footprint=to2220_avid_531202B02500G
+footprint=to220_aavid_531202B02500G
