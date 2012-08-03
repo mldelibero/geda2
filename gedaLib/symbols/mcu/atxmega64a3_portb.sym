@@ -95,7 +95,7 @@ P 1100 200 900 200 1 0 0
 T 1100 200 5 10 0 0 0 0 1
 pintype=io
 T 845 195 5 10 1 1 0 6 1
-pinlabel=PA7
+pinlabel=PB7
 T 995 245 5 10 1 1 0 0 1
 pinnumber=13
 T 1100 200 5 10 0 0 0 0 1
