@@ -1,0 +1,100 @@
+v 20110115 2
+T 215 1590 8 10 0 0 0 0 1
+device=ADC0831
+T 715 1040 9 10 1 0 0 0 1
+MCP3002
+T 515 1015 8 10 1 1 0 6 1
+refdes=U?
+T 215 1790 8 10 0 0 0 0 1
+symversion=1.0
+T 190 1340 8 10 0 1 0 0 1
+footprint=TSSOP8W
+P 0 100 200 100 1 0 0
+{
+T 0 100 5 10 0 0 0 0 1
+pintype=input
+T 255 95 5 10 1 1 0 0 1
+pinlabel=\_CS\_/SHDN
+T 105 145 5 10 1 1 0 6 1
+pinnumber=1
+T 0 100 5 10 0 0 0 0 1
+pinseq=1
+}
+P 0 300 200 300 1 0 0
+{
+T 0 300 5 10 0 0 0 0 1
+pintype=clk
+T 255 295 5 10 1 1 0 0 1
+pinlabel=CLK
+T 105 345 5 10 1 1 0 6 1
+pinnumber=7
+T 0 300 5 10 0 0 0 0 1
+pinseq=7
+}
+P 0 500 200 500 1 0 0
+{
+T 0 500 5 10 0 0 0 0 1
+pintype=input
+T 255 495 5 10 1 1 0 0 1
+pinlabel=DIN
+T 105 545 5 10 1 1 0 6 1
+pinnumber=5
+T 0 500 5 10 0 0 0 0 1
+pinseq=5
+}
+P 0 700 200 700 1 0 0
+{
+T 0 700 5 10 0 0 0 0 1
+pintype=output
+T 255 695 5 10 1 1 0 0 1
+pinlabel=DO
+T 105 745 5 10 1 1 0 6 1
+pinnumber=6
+T 0 700 5 10 0 0 0 0 1
+pinseq=6
+}
+P 1800 300 1600 300 1 0 0
+{
+T 1800 300 5 10 0 0 0 6 1
+pintype=input
+T 1545 295 5 10 1 1 0 6 1
+pinlabel=CH0
+T 1695 345 5 10 1 1 0 0 1
+pinnumber=2
+T 1800 300 5 10 0 0 0 6 1
+pinseq=2
+}
+P 1800 500 1600 500 1 0 0
+{
+T 1800 500 5 10 0 0 0 6 1
+pintype=pwr
+T 1545 495 5 10 1 1 0 6 1
+pinlabel=Vss
+T 1695 545 5 10 1 1 0 0 1
+pinnumber=4
+T 1800 500 5 10 0 0 0 6 1
+pinseq=4
+}
+P 1800 700 1600 700 1 0 0
+{
+T 1800 700 5 10 0 0 0 6 1
+pintype=pwr
+T 1545 695 5 10 1 1 0 6 1
+pinlabel=Vcc
+T 1695 745 5 10 1 1 0 0 1
+pinnumber=8
+T 1800 700 5 10 0 0 0 6 1
+pinseq=8
+}
+P 1800 100 1600 100 1 0 0
+{
+T 1800 100 5 10 0 0 0 6 1
+pintype=input
+T 1545 95 5 10 1 1 0 6 1
+pinlabel=CH1
+T 1695 145 5 10 1 1 0 0 1
+pinnumber=3
+T 1800 100 5 10 0 0 0 6 1
+pinseq=3
+}
+B 200 0 1400 1000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
